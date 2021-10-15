@@ -1,0 +1,70 @@
+.galerija-main{
+    #sekcija1g{
+        margin: 30px auto 50px auto;    
+    }
+
+    #sekcija2g{
+        margin: 30px auto 50px auto;
+        text-align: center;
+        
+        .sekcija2g-naslov{
+            font-size: 24px;
+            color: rgb(80,80,80);
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        .sekcija2g-wrapper{
+            background: lightgray;
+            border-radius: 10px;
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            row-gap: 50px;
+
+            
+
+            .galerija-slika{
+                width: 320px;
+                height: 240px;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .sekcija2g-wrapper{
+        row-gap: 17px !important;
+
+        .galerija-slika{
+            width: 280px !important;
+            height: 210px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .sekcija2g-wrapper{
+        row-gap: 30px !important;
+
+        .galerija-slika{
+            width: 300px !important;
+            height: 225px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .sekcija2g-wrapper{
+        justify-content: center !important;
+        row-gap: 20px;
+
+        .galerija-slika{
+            width: 320px !important;
+            height: 240px !important;
+        }
+    }
+}
