@@ -11,18 +11,18 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Početna</a>
+                            <a class="nav-link" href="{{ route('home') }}">Početna</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Galerija</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Materijali</a>
+                            <a class="nav-link" href="{{ route('galerija') }}">Galerija</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Kontakt</a>
+                            <a class="nav-link" href="{{ route('materijali') }}">Materijali</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('grid') }}">Kontakt</a>
                         </li>
                     </ul>
                 </div>

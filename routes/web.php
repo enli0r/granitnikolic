@@ -15,8 +15,17 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages.index');
-});
+})->name('home');
 
 Route::get('/galerija', function () {
     return view('pages.galerija');
-});
+})->name('galerija');
+
+Route::get('/materijali', function(){
+    return view('pages.materijali');
+})->name('materijali');
+
+
+Route::get('/grid', function(){
+    return view('pages.grid');
+})->name('grid');

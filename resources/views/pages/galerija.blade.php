@@ -6,7 +6,7 @@
             <div class="container sekcija1g-container">
                 <div class="sekcija1g-wrapper">
                     <p class="text">
-                        U nastavku stranice nalazi se deo fotografija naših radova. Nadamo se da ćete na osnovu prikazanog materijala moći da sagledate nivo i kvalitet naše ponude.
+                        <span>U nastavku stranice nalazi se deo fotografija naših radova. Nadamo se da ćete na osnovu prikazanog materijala moći da sagledate nivo i kvalitet naše ponude.</span>
                     </p>
     
                     <p class="text">
@@ -25,20 +25,35 @@
             </div>
         </section>
 
+        <div class="container">
+            <hr>
+        </div>
+
         <section id="sekcija2g">
             <h2 class="sekcija2g-naslov">Galerija</h2>
 
             <div class="container sekcija2g-container">
                 <div class="sekcija2g-wrapper">
-                    <img class="galerija-slika" src="../img/bengal.jpg" alt="">
-                    <img class="galerija-slika" src="../img/bengal.jpg" alt="">
-                    <img class="galerija-slika" src="../img/bengal.jpg" alt="">
-                    <img class="galerija-slika" src="../img/bengal.jpg" alt="">
-                    <img class="galerija-slika" src="../img/bengal.jpg" alt="">
-                    <img class="galerija-slika" src="../img/bengal.jpg" alt="">
-                    <img class="galerija-slika" src="../img/bengal.jpg" alt="">
-                    <img class="galerija-slika" src="../img/bengal.jpg" alt="">
-                    <img class="galerija-slika" src="../img/bengal.jpg" alt="">
+                    <div class="grid-item">
+                        <img class="galerija-slika" src="../img/bengal.jpg" alt="">
+                    </div>
+
+                    <div class="grid-item">
+                        <img class="galerija-slika" src="../img/bengal.jpg" alt="">
+                    </div>
+
+                    <div class="grid-item">
+                        <img class="galerija-slika" src="../img/bengal.jpg" alt="">
+                    </div>
+
+                    <div class="grid-item">
+                        <img class="galerija-slika" src="../img/bengal.jpg" alt="">
+                    </div>
+
+                    <div class="grid-item">
+                        <img class="galerija-slika" src="../img/bengal.jpg" alt="">
+                    </div>
+                
                 </div>
             </div>
         </section>

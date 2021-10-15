@@ -1,0 +1,51 @@
+.materijali-main{
+    #sekcija1m{
+        margin: 30px auto 50px auto;
+    }
+
+    .container{
+        hr{
+            color: rgb(80,80,80);
+        }
+    }
+
+    #sekcija2m{
+        text-align: center;
+        margin-top: 50px;
+
+        .sekcija2m-naslov{
+            font-size: 24px;
+            color: rgb(80,80,80);
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        .sekcija2m-wrapper{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 300px);
+            justify-content: space-between;
+            row-gap: 60px;
+            column-gap: 10px;
+
+            .card{  
+                .card-img-top{
+                    height: 300px;
+                }
+
+                .card-title{
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    color: rgb(80,80,80);
+                }
+            }
+
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .sekcija2m-wrapper{
+        justify-content: center !important;
+    }
+}

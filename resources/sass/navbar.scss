@@ -1,6 +1,6 @@
 .navbar-padding{
     background-color: $crvena;
-    min-height: 150px;
+    height: 150px;
     position: relative;
 }
 
@@ -44,7 +44,23 @@
     }   
 }
 
+@media only screen and (max-width: 1200px) {
+    .navbar-padding{
+        height: 190px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-padding{
+        height: 150px;
+    }
+}
+
 @media only screen and (max-width: 768px){
+    .navbar-padding{
+        height: 230px;
+    }
+
 
     .navbar-text{
         text-align: center;
@@ -63,4 +79,9 @@
 
 }
 
+@media only screen and (max-width: 390px){
+    .navbar-padding{
+        height: 270px;
+    }
+}
 
