@@ -29,3 +29,7 @@ Route::get('/materijali', function(){
 Route::get('/grid', function(){
     return view('pages.grid');
 })->name('grid');
+
+Route::get('/kontakt', function(){
+    return view('pages.kontakt');
+})->name('kontakt');

@@ -1,0 +1,82 @@
+#kontakt-main{
+    #sekcija1k{
+        margin: 30px 0 50px 0;
+
+        .kontakt-podnaslov{
+            font-weight: 800;
+            font-size: 22px;
+            color: rgb(80,80,80);
+            margin-bottom: 20px;
+        }
+
+        .sekcija1k-wrapper{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            justify-content: space-between;
+            row-gap: 50px;
+            column-gap: 50px;
+
+            .kontakt-info{
+                .text{
+                    margin-bottom: 30px;
+                }
+
+
+                .kontakt-tekst-slika{
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-bottom: 15px;
+                    align-items: center;
+
+                    .kontakt-slika{
+                        margin-right: 10px;
+                        width: 40px;
+                        height: 40px;
+                    }
+
+                    .kontakt-text{
+                        font-size: 16px;
+                        color: rgb(80,80,80);   
+                        margin: auto 0;
+                        text-transform: uppercase;
+                        font-weight: 800;
+                    }
+                }
+            }
+
+            .kontakt-forma{
+                form{
+                    input, textarea{
+                        width: 100%;
+                        font-size: 15px;
+                        padding: 10px 10px;
+                        border-radius: 5px;
+                        border: 0.3px solid rgb(150,150,150);
+                        color: rgb(80,80,80);
+                        margin-bottom: 15px;
+
+                        &:focus{
+                            outline: none !important;
+                            border: 0.5px solid lightblue;
+                        }
+                    }
+
+                    textarea{
+                        resize: none;
+                    }
+
+                    .send-btn{
+                        background: $crvena;
+                        border-radius: 5px;
+                        padding: 10px 20px;
+                        border: none;
+                        color: white;
+                        font-size: 15px;
+                    }
+                    
+                }
+            }
+
+        }
+    }
+}
