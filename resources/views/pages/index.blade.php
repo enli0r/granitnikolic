@@ -3,7 +3,7 @@
     <header id="index-header">
         <div class="container header-txt-btn-container">
             <div class="header-text">
-                <h1>izrada spomenika</h1>
+                <h1 id="glavni-naslov">izrada spomenika</h1>
                 <h2>tel. 063/81-81-736</h2>
             </div>
             

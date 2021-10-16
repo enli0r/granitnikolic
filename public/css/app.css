@@ -10097,7 +10097,7 @@ h3 {
 
 #index-header {
   background-color: #a51129;
-  height: 700px;
+  height: 550px;
   position: relative;
 }
 #index-header .header-txt-btn-container {
@@ -10110,7 +10110,7 @@ h3 {
 #index-header .header-txt-btn-container .header-text h1 {
   font-size: 50px;
   font-weight: 700;
-  padding: 250px 0 30px 0;
+  padding: 150px 0 30px 0;
 }
 #index-header .header-txt-btn-container .header-text h2 {
   font-size: 35px;
@@ -10236,6 +10236,14 @@ h3 {
   }
 }
 @media only screen and (max-width: 768px) {
+  #index-header {
+    height: 500px !important;
+  }
+
+  #glavni-naslov {
+    padding: 100px 0 30px 0 !important;
+  }
+
   .sekcija2-container {
     justify-content: center !important;
   }
@@ -10383,7 +10391,7 @@ h3 {
 #kontakt-main #sekcija1k .sekcija1k-wrapper .kontakt-info .kontakt-tekst-slika {
   display: flex;
   justify-content: flex-start;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
   align-items: center;
 }
 #kontakt-main #sekcija1k .sekcija1k-wrapper .kontakt-info .kontakt-tekst-slika .kontakt-slika {

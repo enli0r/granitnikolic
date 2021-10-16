@@ -22,7 +22,7 @@
 
 #index-header{
     background-color: $crvena;
-    height: 700px;
+    height: 550px;
     position: relative;
 
     .header-txt-btn-container{
@@ -35,7 +35,7 @@
             h1{
                 font-size: 50px;
                 font-weight: 700;
-                padding: 250px 0 30px 0;
+                padding: 150px 0 30px 0;
             }
 
             h2{
@@ -201,6 +201,14 @@
 
 
 @media only screen and (max-width: 768px){
+
+    #index-header{
+        height: 500px !important;
+    }
+
+    #glavni-naslov{
+        padding: 100px 0 30px 0 !important;
+    }
 
     .sekcija2-container{
         justify-content: center !important;
