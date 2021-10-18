@@ -19,7 +19,7 @@
                 <div class="sekcija1-blok">
     
                     <div class="slika-naslov">
-                        <img src="../img/settings.png" alt="">
+                        <img src="https://i.ibb.co/Xpscp8N/settings.png" alt="">
                         <h3 class="podnaslov">Kvalitet</h3>
                     </div>
                     
@@ -29,7 +29,7 @@
                 <div class="sekcija1-blok">
     
                     <div class="slika-naslov">
-                        <img src="../img/like.png" alt="">
+                        <img src="https://i.ibb.co/fddFH0w/like.jpg" alt="">
                         <h3 class="podnaslov">Garancija</h3>
                     </div>
                     
@@ -40,7 +40,7 @@
                 <div class="sekcija1-blok">
     
                     <div class="slika-naslov">
-                        <img src="../img/person.png" alt="">
+                        <img src="https://i.ibb.co/VNpwHxT/person.png" alt="">
                         <h3 class="podnaslov">Tradicija i iskustvo</h3>
                     </div>
         
@@ -52,7 +52,7 @@
         <section id="sekcija2">
             <div class="sekcija2-wrapper">
                 <div class="container sekcija2-container">
-                    <img src="../img/logo-proba.jpg" alt="">
+                    <img src="https://i.ibb.co/Vp6PQQ1/logo-proba.jpg" alt="">
                     
                     <div class="sekcija2-text">
                         <h3 class="podnaslov">O nama</h3>
@@ -71,7 +71,7 @@
         <section id="sekcija3">
             <div class="container sekcija3-container">
                 <div class="card">
-                    <img src="../img/materijali.jpg" alt="" class="card-img-top">
+                    <img src="https://i.ibb.co/s3g3JhW/materijali.png" alt="" class="card-img-top">
                 
                     <div class="card-body">
                         <h5 class="card-title">Kvalitetni materijali</h5>
@@ -79,12 +79,12 @@
                             Materijali od kojih izradjujemo spomenike su izuzetnog i proverenog kvaliteta. <span>Garantujemo dugovečnost i postojanost naših radova.</span>
                         </p>
 
-                        <a href="" type="button" class="card-button mt-auto">Materijali</a>
+                        <a href="{{ route('materijali') }}" type="button" class="card-button mt-auto">Materijali</a>
                     </div>
                 </div>
 
                 <div class="card">
-                    <img src="../img/cene.png" alt="" class="card-img-top">
+                    <img src="https://i.ibb.co/17K8X1q/cene.jpg" alt="" class="card-img-top">
                 
                     <div class="card-body">
                         <h5 class="card-title">Povoljne cene</h5>
@@ -92,12 +92,12 @@
                             Cene spomenika su <span>jako povoljne</span> i najviše zavise od vrste i količine materijala koji je korišćen u izradi.
                         </p>
 
-                        <a href="" type="button" class="card-button mt-auto">Cenovnik</a>
+                        <a href="{{ route('kontakt') }}" type="button" class="card-button mt-auto">Kontakt</a>
                     </div>
                 </div>
 
                 <div class="card">
-                    <img src="../img/dogovor.png" alt="" class="card-img-top">
+                    <img src="https://i.ibb.co/CW21L6t/dogovor.png" alt="" class="card-img-top">
                 
                     <div class="card-body">
                         <h5 class="card-title">Poštovanje rokova</h5>
@@ -105,7 +105,7 @@
                             Prilikom izrade i montaže spomenika, <span>uvek se trudimo da dogovorene radove završimo pre roka</span>. Time poštujemo Vaše vreme i dogovor.
                         </p>
 
-                        <a href="" type="button" class="card-button mt-auto">O nama</a>
+                        <a href="#sekcija2" type="button" class="card-button mt-auto">O nama</a>
 
                     </div>
                 </div>

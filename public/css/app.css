@@ -10121,7 +10121,7 @@ h3 {
   background-color: #1e1e1e;
   color: white;
   padding: 10px 25px;
-  border-radius: 15px;
+  border-radius: 5px;
   border: none;
   font-size: 16px;
   text-transform: uppercase;
@@ -10165,11 +10165,11 @@ h3 {
   max-width: 350px;
   height: 350px;
   border: 1px solid white;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 #index-main #sekcija2 .sekcija2-container .sekcija2-text {
   background-color: white;
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 40px;
   width: 700px;
 }
@@ -10328,7 +10328,7 @@ h3 {
 }
 .materijali-main #sekcija2m {
   text-align: center;
-  margin-top: 50px;
+  margin: 50px 0;
 }
 .materijali-main #sekcija2m .sekcija2m-naslov {
   font-size: 24px;
@@ -10351,6 +10351,12 @@ h3 {
   font-weight: 800;
   text-transform: uppercase;
   color: #505050;
+}
+.materijali-main #sekcija2m .sekcija2m-wrapper .card .card-text {
+  color: #505050;
+}
+.materijali-main #sekcija2m .sekcija2m-wrapper .card .card-text span {
+  font-weight: 800;
 }
 
 @media only screen and (max-width: 768px) {

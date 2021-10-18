@@ -33,65 +33,16 @@
             <div class="container sekcija2m-container">
                 <div class="sekcija2m-wrapper grid-container">
 
-                    <div class="card grid-item">
-                        <img class="materijali-slika card-img-top" src="../img/bengal.jpg" alt="">
+                    @foreach ($materials as $material)
+                        <div class="card grid-item">
+                            <img class="materijali-slika card-img-top" src="{{ $material->slika }}" alt="">
 
-                        <div class="card-body">
-                            <h5 class="card-title">impala</h5>
-                            <p class="card-text">
-                                Prirodni kamen Impala je crne boje, iz Irana. <span>Poseban je zbog svoje prirodne tvrdoće i kompaktnosti</span>, ima elegantnu notu i daje luksuzan i ekskluzivan izgled.
-                            </p>
+                            <div class="card-body">
+                                <h5 class="card-title">{{$material->ime}}</h5>
+                                {!! $material->opis !!}
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="card grid-item">
-                        <img class="materijali-slika card-img-top" src="../img/bengal.jpg" alt="">
-
-                        <div class="card-body">
-                            <h5 class="card-title">impala</h5>
-                            <p class="card-text">
-                                Prirodni kamen Impala je crne boje, iz Irana. <span>Poseban je zbog svoje prirodne tvrdoće i kompaktnosti</span>, ima elegantnu notu i daje luksuzan i ekskluzivan izgled.
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <div class="card grid-item">
-                        <img class="materijali-slika card-img-top" src="../img/bengal.jpg" alt="">
-
-                        <div class="card-body">
-                            <h5 class="card-title">impala</h5>
-                            <p class="card-text">
-                                Prirodni kamen Impala je crne boje, iz Irana. <span>Poseban je zbog svoje prirodne tvrdoće i kompaktnosti</span>, ima elegantnu notu i daje luksuzan i ekskluzivan izgled.
-                            </p>
-                        </div>
-
-                    </div>
-                    
-                    <div class="card grid-item">
-                        <img class="materijali-slika card-img-top" src="../img/bengal.jpg" alt="">
-
-                        <div class="card-body">
-                            <h5 class="card-title">impala</h5>
-                            <p class="card-text">
-                                Prirodni kamen Impala je crne boje, iz Irana. <span>Poseban je zbog svoje prirodne tvrdoće i kompaktnosti</span>, ima elegantnu notu i daje luksuzan i ekskluzivan izgled.
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <div class="card grid-item">
-                        <img class="materijali-slika card-img-top" src="../img/bengal.jpg" alt="">
-
-                        <div class="card-body">
-                            <h5 class="card-title">impala</h5>
-                            <p class="card-text">
-                                Prirodni kamen Impala je crne boje, iz Irana. <span>Poseban je zbog svoje prirodne tvrdoće i kompaktnosti</span>, ima elegantnu notu i daje luksuzan i ekskluzivan izgled.
-                            </p>
-                        </div>
-
-                    </div>
-
+                    @endforeach
                 </div>
             </div>
         </section>

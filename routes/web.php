@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PagesController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,23 +15,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.index');
-})->name('home');
+Route::get('/', [PagesController::class, 'index'])->name('home');
 
-Route::get('/galerija', function () {
-    return view('pages.galerija');
-})->name('galerija');
+Route::get('/galerija', [PagesController::class, 'galerija'])->name('galerija');
 
-Route::get('/materijali', function(){
-    return view('pages.materijali');
-})->name('materijali');
+Route::get('/materijali', [PagesController::class, 'materijali'])->name('materijali');
+
+//Kontakt
+Route::get('/kontakt', [PagesController::class, 'kontakt'])->name('kontakt');
+Route::post('/kontakt', [ContactController::class, 'store'])->name('kontakt.store');
 
 
-Route::get('/grid', function(){
-    return view('pages.grid');
-})->name('grid');
-
-Route::get('/kontakt', function(){
-    return view('pages.kontakt');
-})->name('kontakt');
